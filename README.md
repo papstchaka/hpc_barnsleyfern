@@ -13,7 +13,6 @@ All requiered functionality to `compile`, `send` or `clean` the project is provi
 >   - `make clean` - cleans project folder by removing old executables, `tar`-archives and `build/` folder
 >   - `make send` - packs `src/` folder and `Makefile` into `tar` archive and sends it via `scp` to desired target
 >   - `make unpack` - provides the possibility to untar the `tar` archive and rebuild the given folder structure at new place
-
 >   - `./barnsley_fern` - starts the compiled script that produces the output image
 
 More detailed information on algorithms' implementation and task of the respective scripts is given in <a href="src/" target="_blank">`src`</a>

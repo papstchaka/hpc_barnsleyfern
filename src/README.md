@@ -65,14 +65,6 @@ Special:
 
 -------
 
-## <a href="main.cpp" target="_blank">`main.cpp`</a>
-
-Main function of the whole project. Defines number of consumers and producers (here both to be 2), initialises Buffer, RealConsumers and RealProducers and starts the latter.
-
-<br/><br/>
-
--------
-
 ## <a href="Point.cpp" target="_blank">`Point.cpp`</a>
 
 Implements the Point objects (used by `RealProducer` and `RealConsumer`). Here a point consists of a pair of floats.
@@ -161,3 +153,11 @@ Given functionality:
 ## <a href="Worker.h" target="_blank">`Worker.h`</a>
 
 Header of `Worker.cpp`
+
+<br/><br/>
+
+-------
+
+## <a href="main.cpp" target="_blank">`main.cpp`</a>
+
+Main function of the whole project. Defines number of consumers and producers (here both to be 2), initialises Buffer, RealConsumers and RealProducers and starts the latter.
