@@ -1,5 +1,7 @@
 # hpc_barnsleyfarn
 
+## Goal
+
 Parallel implementation of <a href="https://en.wikipedia.org/wiki/Barnsley_fern" target="_blank">`Barnsley Farn Algorithm`</a> in C++. Repository follows up the <a href="https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem" target="_blank">`producer-consumer-model`</a> and is aware of upcoming <a href="https://en.wikipedia.org/wiki/Race_condition" target="_blank">`race conditions`</a> (= threadsafe) by using mutexes. The implementation of the consumer-producer model is held modular, so it is very simple to change the desired algorithm without loosing a framework that works parallel and therefore very performant and efficient.
 
 <br/><br/>
