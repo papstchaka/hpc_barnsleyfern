@@ -1,7 +1,7 @@
-TARNAME = barnsley_farn # chose a name for tar archive
-HOST = localhost # host name of receiving operating system
-USER = chaka # username on receiving operating system
-PORT = 2222 # port to use, should stay 2222
+TARNAME = barnsley_farn# chose a name for tar archive
+HOST = localhost# host name of receiving operating system
+USER = chaka# username on receiving operating system
+PORT = 2222# port to use, should stay 2222
 
 all:
 	@echo "This is a dummy to prevent running make without explicit target!"
