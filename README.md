@@ -52,6 +52,10 @@ Algorithm produces a BarnsleyFern with high resolution (10k x 20k pixels), store
 sudo apt-get update
 sudo apt-get install cmake gcc clang gdb built-essential
 ```
+> Install libraries to work with `png`s by running
+````cmd
+sudo apt-get install imagemagick libpng-dev zlib1g-dev
+```
 
 <br/><br/>
 
