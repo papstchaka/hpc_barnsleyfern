@@ -53,7 +53,7 @@ sudo apt-get update
 sudo apt-get install cmake gcc clang gdb built-essential
 ```
 > Install libraries to work with `png`s by running
-````cmd
+```cmd
 sudo apt-get install imagemagick libpng-dev zlib1g-dev
 ```
 
